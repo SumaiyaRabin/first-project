@@ -3,16 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my first project</title>
-    <style>
-        .title {
-            color: green;
-        }
-    </style>
+    <title>Sumu's Profile</title>
+    <script src="https://kit.fontawesome.com/ao765399.js" crossorigim="anonymous"></script>
+<!-- Internal CSS -->
+ <style>
+    body {
+        front-family: Arial, sans-serif;
+        background-color: #f0f1f0f8;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #0099cc;
+}
+
+h1 {
+  color: #333;
+  margin: 10px 0;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #0099cc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0099cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+  </style>
+
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 class="title">Wellcome to our new project</h1>
-<h2> Thank You</h2>
+  <div class="container">
+    <img src="images/mypic.jpg" alt="Sumaiya Sumu" class="profile-pic" />
 
+    <h1>I am Sumaiya Sumu</h1>
+    <h2>Student | Future Frontend Developer</h2>
+
+    <p>I am studying in the Department of Nutrition & Food Technology at JUST.  
+       I dream of becoming a skilled frontend developer and building beautiful websites by myself.</p>
+
+    <div class="icons">
+      <a href="https://github.com/sumaiya Rabin" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/Sumaiya Shemla" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:sumaiyamst165@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <a href="#" class="btn">Contact with me</a>
+  </div>
 </body>
 </html>
+
+  
